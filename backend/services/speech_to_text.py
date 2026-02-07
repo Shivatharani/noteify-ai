@@ -3,7 +3,7 @@ import wave
 import json
 import os
 
-MODEL_PATH = "backend/models/vosk-model-en-us-0.22"
+MODEL_PATH = "models/vosk-model-en-us-0.22"
 
 if not os.path.exists(MODEL_PATH):
     raise RuntimeError(f"VOSK model not found at {MODEL_PATH}")
